@@ -4,7 +4,7 @@ package ru.pas.kotlinlearn
 fun main() {
 
     val p1 = Person("Вася", "Пупкин", 33)
-//    println(p1.firstName)
+//    println(p1.firstName) // Доступ без геттера
 
     val child = Person("Вова", "Пупкин", 1)
     val p2 = Person("Вася", "Пупкин", 33, child)
